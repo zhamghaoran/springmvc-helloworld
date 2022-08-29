@@ -14,6 +14,12 @@
     <servlet>
         <servlet-name>SpringMVC</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+<!--        设置springMVC配置文件的位置-->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:SpringMVC-servlet.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>SpringMVC</servlet-name>

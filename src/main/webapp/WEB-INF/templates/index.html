@@ -11,5 +11,7 @@
 <form th:action="@{/hello}" method="post">
     <input type="submit" value="测速@RequrestMapping注解的method属性">
 </form>
+<a th:href="@{/hello?username=admin}">测试@RequestMapping的parama属性</a><br>
+<a th:href="@{/hello(username='admin')}">测试@RequestMapping的parama属性</a><br>
 </body>
 </html>

@@ -27,6 +27,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * "param=value"：表示当前所匹配的请求参数中必须携带param且值必须等于val
  * "param!=value"：表示当前所匹配的请求参数中可以不携带param，若携带一定不等于val
  * 不匹配就会报400错误
+ * 5.@RequestMapping注解的header属性
+ * 作用：通过当前请求的请求头信息来匹配请求，即浏览器发送的请求头信息要满足headers属性的设置
+ * 若浏览器发送的请求路径和@RequestMapping注解的val属性匹配，但是请求头信息不匹配
+ * 此时页面报错404
  */
 
 @Controller
@@ -35,8 +39,9 @@ public class TestRequestMapping {
     //此时控制器方法所匹配的请求路径为/test/hello
     @RequestMapping(
             value = {"/hello","/qaq"},
-            method = {RequestMethod.POST,RequestMethod.GET},
-            params = {"username","!password","age=20"}
+            method = {RequestMethod.POST,RequestMethod.GET}
+            //params = {"username","!password","age=20"},
+            //headers = {"referer"}
     )
     public String hello() {
         return "success";

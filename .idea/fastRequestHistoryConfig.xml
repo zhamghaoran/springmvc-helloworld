@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestHistoryConfig">
+    <option name="historyList">
+      <list>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getServletApi" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getServletApi" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/test/get" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/test/get" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/test/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang=&quot;en&quot;&gt;&#13;&#10;&lt;head&gt;&#13;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#13;&#10;    &lt;title&gt;首页&lt;/title&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&lt;h1&gt;success.html&lt;/h1&gt;&#13;&#10;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;" />
+          <option name="url" value="/test/get" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="testServletApi" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="testServletApi" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/test/servletapi" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/test/servletapi" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/test/servletapi&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang=&quot;en&quot;&gt;&#13;&#10;&lt;head&gt;&#13;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#13;&#10;    &lt;title&gt;首页&lt;/title&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&lt;h1&gt;success.html&lt;/h1&gt;&#13;&#10;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;" />
+          <option name="url" value="/test/servletapi" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang=&quot;en&quot;&gt;&#13;&#10;&lt;head&gt;&#13;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#13;&#10;    &lt;title&gt;首页&lt;/title&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&lt;h1&gt;success.html&lt;/h1&gt;&#13;&#10;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang=&quot;en&quot;&gt;&#13;&#10;&lt;head&gt;&#13;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#13;&#10;    &lt;title&gt;首页&lt;/title&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&lt;h1&gt;success.html&lt;/h1&gt;&#13;&#10;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!doctype html&gt;&lt;html lang=&quot;zh&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP状态 500 - 内部服务器错误&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP状态 500 - 内部服务器错误&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;类型&lt;/b&gt; 异常报告&lt;/p&gt;&lt;p&gt;&lt;b&gt;消息&lt;/b&gt; Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;param&amp;#47;servletAPI.html]&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;b&gt;描述&lt;/b&gt; 服务器遇到一个意外的情况，阻止它完成请求。&lt;/p&gt;&lt;p&gt;&lt;b&gt;例外情况&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;param&amp;#47;servletAPI.html]&amp;quot;)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;根本原因。&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;param&amp;#47;servletAPI.html]&amp;quot;)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)&#13;&#10;&#9;org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;根本原因。&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.io.FileNotFoundException: Could not open ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;param&amp;#47;servletAPI.html]&#13;&#10;&#9;org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)&#13;&#10;&#9;org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)&#13;&#10;&#9;org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;):注意&lt;/b&gt; 主要问题的全部 stack 信息可以在 server logs 里查看&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/9.0.64&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!doctype html&gt;&lt;html lang=&quot;zh&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP状态 500 - 内部服务器错误&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP状态 500 - 内部服务器错误&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;类型&lt;/b&gt; 异常报告&lt;/p&gt;&lt;p&gt;&lt;b&gt;消息&lt;/b&gt; Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;.html]&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;b&gt;描述&lt;/b&gt; 服务器遇到一个意外的情况，阻止它完成请求。&lt;/p&gt;&lt;p&gt;&lt;b&gt;例外情况&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;.html]&amp;quot;)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;根本原因。&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: &amp;quot;ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;.html]&amp;quot;)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)&#13;&#10;&#9;org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;根本原因。&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.io.FileNotFoundException: Could not open ServletContext resource [&amp;#47;WEB-INF&amp;#47;templates&amp;#47;.html]&#13;&#10;&#9;org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)&#13;&#10;&#9;org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)&#13;&#10;&#9;org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)&#13;&#10;&#9;org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)&#13;&#10;&#9;org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)&#13;&#10;&#9;org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)&#13;&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:655)&#13;&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)&#13;&#10;&#9;javax.servlet.http.HttpServlet.service(HttpServlet.java:764)&#13;&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)&#13;&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;):注意&lt;/b&gt; 主要问题的全部 stack 信息可以在 server logs 里查看&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/9.0.64&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!doctype html&gt;&lt;html lang=&quot;zh&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP状态 404 - 未找到&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP状态 404 - 未找到&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;类型&lt;/b&gt; 状态报告&lt;/p&gt;&lt;p&gt;&lt;b&gt;描述&lt;/b&gt; 源服务器未能找到目标资源的表示或者是不愿公开一个已经存在的资源表示。&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/9.0.64&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="&lt;!doctype html&gt;&lt;html lang=&quot;zh&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP状态 404 - 未找到&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP状态 404 - 未找到&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;类型&lt;/b&gt; 状态报告&lt;/p&gt;&lt;p&gt;&lt;b&gt;描述&lt;/b&gt; 源服务器未能找到目标资源的表示或者是不愿公开一个已经存在的资源表示。&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/9.0.64&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="getParamByServletAPI" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+              <option name="method" value="getParamByServletAPI" />
+              <option name="methodDescription" value="New Request" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/param/servletAPI" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/param/servletAPI" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;username&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;admin&quot;},{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;123456&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="username=admin&#10;&amp;password=123456" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/param/servletAPI?password=123456&amp;username=admin&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ConnectException: Connection refused: no further information" />
+          <option name="url" value="/param/servletAPI" />
+        </ResponseHistory>
+      </list>
+    </option>
+  </component>
+</project>

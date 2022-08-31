@@ -22,5 +22,12 @@
     <input th:type="submit" value="登录">
 </form>
 <a th:href="@{/param/servletAPI(username='admin',password='123456')}" >测试自动获取参数</a>
+<form th:action="@{/test/pojo}" method="post">
+    用户名: <input type="text" name="name"><br>
+    性别:<input type="text" name="sex"><br>
+    年龄:<input type="text" name="age"><br>
+    邮箱:<input type="text" name="email"><br>
+    <input type="submit">
+</form>
 </body>
 </html>

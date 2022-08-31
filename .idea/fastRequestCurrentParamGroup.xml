@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.zhr.springmvchelloworld.TestParamController" />
+    <option name="method" value="getServletApi" />
+    <option name="module" value="springmvc-helloworld" />
+    <option name="originUrl" value="/test/get" />
+    <option name="url" value="/test/get" />
+  </component>
+</project>

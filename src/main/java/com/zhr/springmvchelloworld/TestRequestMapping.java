@@ -2,6 +2,7 @@ package com.zhr.springmvchelloworld;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -31,7 +32,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 作用：通过当前请求的请求头信息来匹配请求，即浏览器发送的请求头信息要满足headers属性的设置
  * 若浏览器发送的请求路径和@RequestMapping注解的val属性匹配，但是请求头信息不匹配
  * 此时页面报错404
- */
+ * 6.@SpringMVC支持ant风格的路径
+ * 在@RequestMapping注解的val属性中设置一些特殊字符
+ * ？：任意的单个字符（不包括？）
+ * *：任意个数的任意字符（不包括？和/）
+ * **：任意的任意层数目录，注意使用方式只能把**写在双斜线中，前后不能有任何的其他字符
+ * 7.@RequestMapping使用路径中的占位符
+ * 传统的方式：/deleteuser?id=1
+ * rest：/user/delete/1
+ * 需要在@RequestMapping注解的val属性中所设置的路径中，是使用{xxx}的方式表示路径中的数据
+ * 在通过@PathVarible注解，将占位符所标识的值与控制器方法的形参进行绑定
+*/
 
 @Controller
 //@RequestMapping({"/test","/qaq"})
@@ -44,6 +55,16 @@ public class TestRequestMapping {
             //headers = {"referer"}
     )
     public String hello() {
+        return "success";
+    }
+    @RequestMapping("/**/test/ant")
+    public String testAnt() {
+        return "success";
+    }
+    @RequestMapping("/test/rest/{username}/{id}")
+    public String testRest(@PathVariable Integer id,@PathVariable String username) {
+        System.out.println("id :" + id);
+        System.out.println("username :" + username);
         return "success";
     }
 }

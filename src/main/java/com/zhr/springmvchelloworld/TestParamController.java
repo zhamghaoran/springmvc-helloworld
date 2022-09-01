@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.net.HttpCookie;
+import java.util.Map;
 
 @Controller
 public class TestParamController {
@@ -46,12 +48,10 @@ public class TestParamController {
         return "success";
     }
 
-    @RequestMapping("/test/get")
-    public String getServletApi(HttpServletRequest request) {
-        Object testScope = request.getAttribute("testScope");
-        System.out.println(testScope);
-        return "success";
-
+    @RequestMapping("/test/map")
+    public String testMap(Map<String ,Object> map) {
+        map.put("testScope","Hello,Map");
+        return "seccess";
     }
 
 }

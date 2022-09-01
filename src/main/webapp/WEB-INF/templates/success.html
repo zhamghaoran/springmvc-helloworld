@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>success.html</h1>
-<p th:text="${testScope}"></p>
+<p th:text="${#servletContext.getAttribute('testApplication')}"></p>
 </body>
 </html>

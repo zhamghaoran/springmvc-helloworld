@@ -6,6 +6,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.processing.SupportedAnnotationTypes;
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -80,4 +82,31 @@ public class TestParamController {
         map.addAttribute("testScope", "hello,modelMap");
         return "success";
     }
+
+    /*
+      Model、ModelMap、Map类型的参数其实本质上都是BindingAwareModelMap类型的
+      public interface Model{}
+      public class ModelMap extends LinkedHashMap<String, Object> {}
+      public class ExtendedModelMap extends ModelMap implements Model {}
+      public class BindingAwareModelMap extends ExtendedModelMap {}
+
+     */
+
+    // 向session共享数据
+    @RequestMapping("/test/session")
+    public String testSession(HttpSession session) {
+        session.setAttribute("testSession","hello,session");
+        return "success";
+    }
+
+    // 向applicationContext共享数据
+
+    @RequestMapping("/test/application")
+    public String testApplication(HttpSession session) {
+        ServletContext servletContext = session.getServletContext();
+        servletContext.setAttribute("testApplication","hello,application");
+        return "success";
+    }
+
+
 }

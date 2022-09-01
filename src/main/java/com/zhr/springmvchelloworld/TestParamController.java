@@ -1,7 +1,10 @@
 package com.zhr.springmvchelloworld;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,13 +27,13 @@ public class TestParamController {
      * 若使用字符串类型的形参，此参数的值为每个数据中间使用逗号拼接的结果
      */
     @RequestMapping("/param/servletAPI")
-    public String getParamByServletAPI(String username,String password) {
+    public String getParamByServletAPI(String username, String password) {
         System.out.println(username + "  " + password);
         return "success";
     }
 
     /**
-     *通过pojo获取参数
+     * 通过pojo获取参数
      * <p>
      * 可以在控制器方法形参的位置设置一个实体类类型的形参，此时浏览器传输的请求参数的参数名和实体类中的属性名一致，
      * 那么请求参数就会为此属性赋值
@@ -41,17 +44,40 @@ public class TestParamController {
         return "success";
     }
 
-
+    // 使用Request来共享数据
     @RequestMapping("/test/servletapi")
     public String testServletApi(HttpServletRequest request) {
-        request.setAttribute("testScope","Hello,ServletApi");
+        request.setAttribute("testScope", "Hello,ServletApi");
         return "success";
     }
 
+    // 使用map来共享数据
     @RequestMapping("/test/map")
-    public String testMap(Map<String ,Object> map) {
-        map.put("testScope","Hello,Map");
-        return "seccess";
+    public String testMap(Map<String, Object> map) {
+        map.put("testScope", "Hello,Map");
+        return "success";
     }
 
+    // 使用ModelAndView来共享数据
+    @RequestMapping("/test/modelandview")
+    public ModelAndView testModelAndView() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("testScope", "hello,modelAndView");
+        modelAndView.setViewName("success");
+        return modelAndView;
+    }
+
+    // 使用model来共享数据
+    @RequestMapping("/test/model")
+    public String testModel(Model model) {
+        model.addAttribute("testScope", "hello,Scope");
+        return "success";
+    }
+
+    // 使用ModelMap来共享数据
+    @RequestMapping("/test/modelMap")
+    public String testModelMap(ModelMap map) {
+        map.addAttribute("testScope", "hello,modelMap");
+        return "success";
+    }
 }

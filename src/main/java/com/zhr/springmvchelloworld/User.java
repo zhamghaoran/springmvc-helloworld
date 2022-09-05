@@ -3,8 +3,7 @@ package com.zhr.springmvchelloworld;
 public class User {
     public String name;
     public String sex;
-    public Integer age;
-    public String email;
+    public Integer age;    public String email;
 
     @Override
     public String toString() {

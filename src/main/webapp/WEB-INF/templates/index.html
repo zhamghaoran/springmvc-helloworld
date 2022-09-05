@@ -5,29 +5,7 @@
     <title>首页</title>
 </head>
 <body>
-<h1>index.html</h1>
-<a th:href="@{/hello}">测试@Requestmapping注解所标识的位置</a> <br>
-<a th:href="@{/hello}">测试@@RequestMapping注解的val属性</a> <br>
-<form th:action="@{/hello}" method="post">
-    <input type="submit" value="测速@RequrestMapping注解的method属性">
-</form>
-<a th:href="@{/hello?username=admin}">测试@RequestMapping的parama属性</a><br>
-<a th:href="@{/hello(username='admin')}">测试@RequestMapping的parama属性</a><br>
-<a th:href="@{/aaa/test/ant}">测试@RequestMapping注解支持ant风格的路径</a><br>
-<a th:href="@{/test/rest/admin/1}">测试@RequestMapping注解的val属性中的占位符</a><br>
-<hr>
-<form th:action="@{/param/servletAPI}" method="post">
-    用户名:<input th:type="text" name="username"><br>
-    密码:<input th:type="password" name="password"><br>
-    <input th:type="submit" value="登录">
-</form>
-<a th:href="@{/param/servletAPI(username='admin',password='123456')}" >测试自动获取参数</a>
-<form th:action="@{/test/pojo}" method="post">
-    用户名: <input type="text" name="name"><br>
-    性别:<input type="text" name="sex"><br>
-    年龄:<input type="text" name="age"><br>
-    邮箱:<input type="text" name="email"><br>
-    <input type="submit">
-</form>
+<h1 >首页</h1>
+<a th:href="@{/employee}">访问员工信息</a>
 </body>
 </html>

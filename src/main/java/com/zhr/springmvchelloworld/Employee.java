@@ -1,10 +1,10 @@
 package com.zhr.springmvchelloworld;
 
 public class Employee {
-    private Integer id;
-    private String lastname;
-    private String email;
-    private Integer gender;
+    public Integer id;
+    public String lastname;
+    public String email;
+    public Integer gender;
 
     public Employee(){}
 
@@ -56,5 +56,4 @@ public class Employee {
     public void setGender(Integer gender) {
         this.gender = gender;
     }
-
 }

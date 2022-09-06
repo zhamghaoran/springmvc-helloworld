@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add employee</title>
+</head>
+<body>
+<form th:action="@{/employee}" method="post">
+    <table>
+        <tr>
+            <th colspan="2">add employee</th>
+        </tr>
+        <tr>
+            <td>lastname</td>
+            <td>
+                <input type="text" name="lastname">
+            </td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td>
+                <input type="text" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>
+                <input type="radio" name="gender" value="1"> 男
+                <input type="radio" name="gender" value="0"> 女
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="add">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

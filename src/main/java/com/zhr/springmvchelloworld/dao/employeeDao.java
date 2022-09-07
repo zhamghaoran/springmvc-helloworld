@@ -3,7 +3,6 @@ package com.zhr.springmvchelloworld.dao;
 import com.zhr.springmvchelloworld.Employee;
 import org.springframework.stereotype.Repository;
 
-import javax.naming.InsufficientResourcesException;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -40,6 +39,9 @@ public class employeeDao {
 
     public void delete(Integer id) {
         employeeMap.remove(id);
+    }
+    public Map<Integer, Employee> getMap() {
+        return employeeMap;
     }
 
 }

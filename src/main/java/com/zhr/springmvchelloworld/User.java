@@ -5,6 +5,7 @@ public class User {
     public String sex;
     public Integer age;    public String email;
 
+    public User() {}
     @Override
     public String toString() {
         return "User{" +

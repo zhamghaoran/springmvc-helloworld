@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>list</title>
 </head>
 <body>
-<table>
-    <tr>
-        <th colspan="5">employee list</th>
-    </tr>
-    <tr>
-        <th>id</th>
-        <th>lastname</th>
-        <th>email</th>
-        <th>gender</th>
-        <th>options(<a th:href="@{/to/add}">add</a>)</th>
-    </tr>
-    <tr th:each="employee : ${allemployee}">
-        <td th:text="${employee.id}"></td>
-        <td th:text="${employee.lastname}"></td>
-        <td th:text="${employee.email}"></td>
-        <td th:text="${employee.gender}"></td>
-        <td>
-            <a href="">delete</a>
-            <a th:href="@{'/employee' + ${employee.id} ">update</a>
-        </td>
-    </tr>
-</table>
+<div id="app">
+    <table>
+        <tr>
+            <th colspan="5">employee list</th>
+        </tr>
+        <tr>
+            <th>id</th>
+            <th>lastname</th>
+            <th>email</th>
+            <th>gender</th>
+            <th>options(<a th:href="@{/to/add}">add</a>)</th>
+        </tr>
+        <!--/*@thymesVar id="allemployee" type="com.zhr.springmvchelloworld.Employee"*/-->
+        <tr th:each="employee : ${allemployee}">
+            <!--/*@thymesVar id="employee" type="com.zhr.springmvchelloworld.Employee"*/-->
+            <td th:text="${employee.id}"></td>
+            <td th:text="${employee.lastname}"></td>
+            <td th:text="${employee.email}"></td>
+            <td th:text="${employee.gender}"></td>
+            <td>
+                <!--/*@thymesVar id="employee" type="com.zhr.springmvchelloworld.Employee"*/-->
+                <a th:href="@{'/employee/delete/'+${employee.id}}">delete</a>
+                <a th:href="@{'/employee/'+${employee.id}}">update</a>
+            </td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>

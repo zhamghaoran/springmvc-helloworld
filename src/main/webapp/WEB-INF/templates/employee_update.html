@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>update</title>
+</head>
+<body>
+<form th:action="@{/employee}" method="post">
+    <input type="hidden" name="_method" value="put">
+    <!--/*@thymesVar id="employee" type="com.zhr.springmvchelloworld.Employee"*/-->
+    <input type="hidden" name="id" th:value="${employee.id}">
+    <table>
+        <tr>
+            <th colspan="2">update</th>
+        </tr>
+        <tr>
+            <td>lastname</td>
+            <td>
+                <label>
+                    <input type="text" name="lastname" th:value="${employee.lastname}">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td>
+                <label>
+                    <input type="text" name="email" th:value="${employee.email}">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>
+                <label>
+                    <input type="radio" name="gender" value="1" th:field="${employee.gender}">
+                    male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="0" th:fiele="${employee.gender}">
+                    female
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="update">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

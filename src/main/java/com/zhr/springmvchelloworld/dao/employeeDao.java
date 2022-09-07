@@ -15,11 +15,11 @@ public class employeeDao {
     static {
         employeeMap = new HashMap<>();
         employeeMap.put(1001,new Employee(1001,"E-AA","aa@163.com",1));
-        employeeMap.put(1002,new Employee(1001,"E-BB","bb@163.com",1));
-        employeeMap.put(1003,new Employee(1001,"E-CC","cc@163.com",0));
-        employeeMap.put(1004,new Employee(1001,"E-DD","dd@163.com",0));
-        employeeMap.put(1005,new Employee(1001,"E-EE","ee@163.com",0));
-        employeeMap.put(1006,new Employee(1001,"E-FF","ff@163.com",1));
+        employeeMap.put(1002,new Employee(1002,"E-BB","bb@163.com",1));
+        employeeMap.put(1003,new Employee(1003,"E-CC","cc@163.com",0));
+        employeeMap.put(1004,new Employee(1004,"E-DD","dd@163.com",0));
+        employeeMap.put(1005,new Employee(1005,"E-EE","ee@163.com",0));
+        employeeMap.put(1006,new Employee(1006,"E-FF","ff@163.com",1));
     }
     private static Integer initID = 1006;
 
